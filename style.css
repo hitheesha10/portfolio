@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+    background-color: rgb(33, 34, 34);
+    /*i will animate when i learn it */
+  color: #ffffff;
+}
+nav{
+    display: flex;
+    justify-content:space-between;
+    background-color: rgb(39, 37, 37);
+    padding: 20px;
+    font-size: 23px;
+}
+nav div{
+    display: flex;
+    gap:50px;
+
+}
+nav a{
+    color:aliceblue;
+    text-decoration: none;
+}
+nav a:hover{
+  color:rgb(2, 107, 139)
+}
+.hero{
+    padding:200px;
+    text-align: center;
+    line-height: 40px;
+}
+.hero h1{
+    font-weight: 600;
+    font-size: 32px;
+    color:teal;
+
+}
+.hero h1:hover{
+    transition: scale(1.05);
+}
+.hero p{
+    font-size: 20px;
+
+}
+.hero button{
+    padding: 15px;
+    margin: 20px;
+    background-color: rgb(13, 107, 107);
+    color:azure;
+    font-size: 16px;
+    border:0;
+    border-radius: 15px;
+}
