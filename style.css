@@ -83,7 +83,15 @@ nav a:hover {
   background-color: #025c5c;
   transform: scale(1.05);
 }
-
+#about {
+  padding: 100px 20px;
+  background-color: #1c1c1c;
+  color: #ccc;
+  text-align: center;
+}
+#about :hover{
+     transform: scale(1.03);
+}
 @media screen and (max-width: 768px) {
   nav {
     flex-direction: column;
