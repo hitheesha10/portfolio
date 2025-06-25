@@ -14,8 +14,6 @@ body {
 html {
   scroll-behavior: smooth;
 }
-
-/* Navbar */
 nav {
   display: flex;
   justify-content: space-between;
@@ -91,6 +89,76 @@ nav a:hover {
 }
 #about :hover{
      transform: scale(1.03);
+}
+
+.projects {
+  padding: 50px 20px;
+  background-color: #212222;
+}
+
+.projects h2 {
+  font-size: 32px;
+  text-align: center;
+  color: #ccc;
+  margin-bottom: 40px;
+}
+
+.project-card {
+  background-color: #2c2c2c;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  max-width: 700px;
+  margin: 20px auto;
+  transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+  transform: scale(1.015);
+}
+
+.project-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.project-info {
+  padding: 20px;
+}
+
+.project-info h3 {
+  color: teal;
+  margin-bottom: 10px;
+  font-size: 24px;
+}
+
+.project-info p {
+  font-size: 16px;
+  color: #dddddd;
+  margin-bottom: 20px;
+}
+
+.project-links {
+  display: flex;
+  gap: 20px;
+}
+
+.project-links a {
+  text-decoration: none;
+  background-color: #0d6b6b;
+  color: white;
+  padding: 10px 18px;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.project-links a:hover {
+  background-color: #088585;
+}
+.project{
+  display: flex;
+  
 }
 @media screen and (max-width: 768px) {
   nav {
