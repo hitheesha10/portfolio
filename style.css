@@ -190,6 +190,19 @@ nav a:hover {
     transform: translateX(-50%) translateY(10px);
   }
 }
+.future-me{
+  text-align:text;
+  display: flex;
+  flex-direction: column;
+  padding:20px;
+}
+.future-me h2{
+  text-align: center;
+}
+.future-me p{
+  padding-top: 5px;
+  text-align: center;
+}
 .fade-in-section {
   opacity: 0;
   transform: translateY(20px);
